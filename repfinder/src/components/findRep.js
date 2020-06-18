@@ -5,3 +5,4 @@ function FindRep () {
         <div></div>
     )
 }
+export default FindRep

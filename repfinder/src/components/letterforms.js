@@ -9,3 +9,4 @@ function Letterforms () {
         </div>
     )
 }
+export default Letterforms
