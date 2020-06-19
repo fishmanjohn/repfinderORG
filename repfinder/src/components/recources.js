@@ -10,3 +10,4 @@ function Recources () {
         </div>
     )
 }
+export default Recources

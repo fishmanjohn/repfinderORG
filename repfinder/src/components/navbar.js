@@ -1,13 +1,18 @@
 import React, { useEffect } from 'react'
-import {Link} from "react-router-dom"
-import styled from 'styled-components'
+import {Link , Router} from "react-router-dom"
 
 function Navbar (){
     return(
         <div className = 'navbar'>
-            <Link to = '/'>About.</Link>
-            <Link to = '/findrep'>Find your representative</Link>
-            <Link to = '/letters'>Form Letters</Link>
+            <div className = 'navTitle'>
+                <h1>Rep.Finder</h1>
+                <h3>Get involved and make a differance</h3>
+            </div>
+            <a to = '/'>About</a>
+            <a to = '/findrep'>Find your representative</a>
+            <a to = '/letters'>Form Letters</a>
+            
         </div>
     )
 }
+export default Navbar
